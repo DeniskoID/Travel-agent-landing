@@ -1,10 +1,25 @@
 .header {
-	background-color: rgb(195, 220, 231);
-	padding: 50px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
 
-	&__row {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
+  &__container {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    flex-grow: 1;
+  }
+
+  &__nav {
+    flex-grow: 0.9;
+  }
 }

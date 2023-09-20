@@ -504,6 +504,7 @@
         "ignore": ["after-comment", "inside-single-line-block"]
       }
     ],
+    "import-notation": "string",
     "font-family-name-quotes": "always-unless-keyword",
     "font-family-no-duplicate-names": true,
     "font-weight-notation": "numeric",

@@ -1,9 +1,16 @@
-html {
-	scroll-behavior: smooth;
+.page {
+  height: 100%;
+  font-family: var(--font-main);
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 
-body {
-	background-color: var(--page-bg);
-	color: var(--text-color);
-    font-family: var(--font-main);
+.page__body {
+  min-width: 320px;
+  min-height: 100%;
+  font-weight: var(--font-weight-main);
+  font-size: var(--font-size-main);
+  line-height: var(--line-height-main);
+  color: var(--gray-color);
+  background-color: var(--page-bg);
 }

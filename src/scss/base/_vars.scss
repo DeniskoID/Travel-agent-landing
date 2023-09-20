@@ -1,20 +1,26 @@
 :root {
-	--container-width: 1200px;
-	--container-padding: 15px;
+  --container-width: 1200px;
+  --container-padding: 15px;
 
-	--font-main: 'Poppins', sans-serif;
-	--font-accent: 'Playfair Display', serif;
+  // Fonts
+  --font-main: "CircularStd", sans-serif;
+  --font-size-main: 18px;
+  --font-weight-main: 400;
+  --line-height-main: 1.5;
 
-	--page-bg: #fff;
-	--text-color: #000;
-	--accent: #ac182c;
+  // Colors
+  --page-bg-color: #fff;
+  --gray-color: #909090;
+  --dark-color: #181818;
+  --accent-color: #35aff4;
 
-    --laptop-size: 1199px;
-	--tablet-size: 959px;
-	--mobile-size: 599px;
+  // Sizes
+  --laptop-size: 1199px;
+  --tablet-size: 959px;
+  --mobile-size: 599px;
 }
 
 .dark {
-    --page-bg: #252526;
-    --text-color: #fff;
+  --page-bg: #252526;
+  --text-color: #fff;
 }
