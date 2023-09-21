@@ -13,12 +13,22 @@
     &--signup {
       color: #fff;
       background-color: #1e1e1e;
+      transition: filter 0.3s ease-in-out;
+
+      @include hover {
+        filter: drop-shadow(-1px 3px 5px rgb(0 0 0 / 50%));
+      }
     }
 
     &--login {
       border: 1px solid #b7b7b7;
       color: #454545;
       background-color: #fff;
+      transition: border-color 0.3s ease-in-out;
+
+      @include hover {
+        border-color: var(--accent-color);
+      }
     }
   }
 }

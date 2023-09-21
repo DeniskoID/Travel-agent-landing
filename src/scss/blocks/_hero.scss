@@ -1,0 +1,32 @@
+.hero {
+  &__container {
+    padding-top: 134px;
+    padding-bottom: 60px;
+  }
+
+  &__grid {
+    display: grid;
+    column-gap: 80px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__description {
+    padding-top: 4.92vw;
+  }
+
+  &__title-wrapper {
+    position: relative;
+    padding-bottom: 24px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 78px;
+    line-height: normal;
+    color: var(--dark-color);
+  }
+
+  &__subtitle {
+    padding-bottom: 40px;
+  }
+}
